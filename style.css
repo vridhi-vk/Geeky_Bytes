@@ -2,12 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Baloo Tammudu 2', cursive;
+   
     color:blanchedalmond;
 }
 body{
     width:100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #262a2c 74%);
 
@@ -23,6 +23,7 @@ body{
 /*nav bar*/
 .nav-bar
 {
+    letter-spacing: 3px;
     display:flex;
     padding: 40px 120px;
 }
@@ -115,16 +116,20 @@ body{
 
 /* Banner */
  .banner{
-  font-size: 30px;
+    letter-spacing: 5px;
+  font-size: 35px;
   font-weight: 500;
   color: #fff;
 }
 
  .banner-para{
+  letter-spacing: 2px;
+  line-height: 2em;
   margin: 20px 0 10px;
   font-size: 1.1rem;
   color: #fff;
 }
+ 
 
  #banner-section {
   display: flex;
@@ -173,6 +178,8 @@ section .bann{
 
 
 .grid{
+    font-family: 'Baloo Tammudu 2', cursive;
+    letter-spacing: 3px;
     display:block;
     padding:16px;
     display:grid;
@@ -180,6 +187,7 @@ section .bann{
     grid-template-columns: repeat(2,1fr);
     color:blanchedalmond;
     align-content: center;
+    
     
 }
 .grid .col{
