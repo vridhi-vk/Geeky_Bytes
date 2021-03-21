@@ -279,3 +279,8 @@ text-align: center;
         font-size: 10px;
     }
 }
+
+#events{
+    text-align: center;
+    margin: 50px;
+}
