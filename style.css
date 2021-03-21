@@ -140,7 +140,6 @@ section .bann{
 .bannerBtn:hover {
   transform: scale(0.98);
 }
-<<<<<<< HEAD
 
 
 
@@ -163,13 +162,6 @@ section .bann{
     width: 100%;
 }
     
-    
-
-
-
-
-
-=======
 @media (max-width: 1068px) {
   .banner-img {
     display: none;
@@ -178,4 +170,3 @@ section .bann{
     padding: 100px 40px;
   }
 }
->>>>>>> 3faf716bb29e98a8d1bad0fdd00f0e44d6e8d9d4
