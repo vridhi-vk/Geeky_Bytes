@@ -1,25 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
-  color: blanchedalmond;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+    color:blanchedalmond;
 }
-body {
-  width: 100vw;
-  overflow-x: hidden;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #262a2c 74%);
+body{
+    width:100vw;
+    overflow-x: hidden;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #262a2c 74%);
+
 }
-#title {
-  width: 60px;
-  height: 30px;
+#title
+{
+    width:60px;
+    height: 30px;
+}
+.header{
+    margin-top:20px;
+    /*background:black;*/
+    text-align: center;
 }
 
 /*nav bar*/
-.nav-bar {
-  display: flex;
-  padding: 40px 120px;
+.nav-bar
+{
+    letter-spacing: 3px;
+    display:flex;
+    padding: 40px 0;
 }
 .nav-logo img {
   width: 150px;
@@ -62,45 +71,55 @@ body {
 
 /*responsiveness*/
 /*mobile veiw*/
-@media screen and (max-width: 660px) {
-  /*.topnav a:not(:first-child) {display: none;}*/
-  .nav-links ul a.icon {
-    float: right;
-    display: block;
-  }
-  .nav-bar .fa {
-    display: block;
-    color: #fff;
-    margin: 10px 25px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  nav-links {
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    text-align: left;
-    z-index: 2;
-  }
+@media screen and (max-width: 800px) {
+   .nav-links ul {
+    padding:8px 5px;
+    /* font-size: 10px; */
+   }
+   .nav-logo img{
+    width:100px; 
+    margin:0;  
+}
+}
+.push{
+    margin-left:auto;
+}
+
+  /* @media screen and (max-width: 1000px) {
+    .nav-links.responsive {position: relative;}
+    .nav-links.responsive ul a.icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .nav-links.responsive ul a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  } */
 
   .nav-links ul a {
     display: block;
   }
-}
+
+
 /* Banner */
-.banner {
-  font-size: 30px;
+ .banner{
+    letter-spacing: 5px;
+  font-size: 35px;
   font-weight: 500;
   color: #fff;
 }
 
-.banner-para {
+ .banner-para{
+  letter-spacing: 2px;
+  line-height: 2em;
   margin: 20px 0 10px;
   font-size: 1.1rem;
   color: #fff;
 }
+ 
 
 #banner-section {
   display: flex;
@@ -145,25 +164,31 @@ section .bann {
   transform: scale(0.98);
 }
 
-.grid {
-  display: block;
-  padding: 16px;
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: repeat(2, 1fr);
-  color: blanchedalmond;
-  align-content: center;
+
+
+.grid{
+    font-family: 'Baloo Tammudu 2', cursive;
+    letter-spacing: 3px;
+    display:block;
+    padding:16px;
+    display:grid;
+    grid-gap:16px;
+    grid-template-columns: repeat(2,1fr);
+    color:blanchedalmond;
+    align-content: center;
+    
+    
 }
-.grid .col {
-  background-color: #000000;
-  border-radius: 1rem;
-  margin-bottom: 16px;
-  padding: 20px;
+.grid .col{
+    background-color: #000000;
+    border-radius: 1rem;
+    margin-bottom:16px;
+    padding:20px;
 }
-.grid .col img {
-  width: 100%;
-  height: 50vh;
-}
+.grid .col:nth-child(odd) {
+    background-color: #ffeaa7;
+    background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
+    box-shadow: 3px 10px 6px -6px blanchedalmond;
 
 @media (max-width: 660px) {
   .banner-img {
@@ -174,7 +199,7 @@ section .bann {
   }
 }
 /* speakers */
-.services {
+.services{
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -194,13 +219,31 @@ section .bann {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
-  color: var(--secondary-color);
+  color: #1b206e;
 }
 
 .services .service .icon img {
   max-width: 100px;
 }
 
+@media (max-width: 1100px) {
+    
+   .services {
+    grid-template-columns: repeat(2, 1fr);
+    display: inline;
+    font-size: 1rem;
+  }
+ 
+}
+@media (max-width: 768px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .services .service {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}
 /* Footer */
 footer {
   background: #111;
@@ -275,11 +318,3 @@ footer {
     font-size: 10px;
   }
 }
-@media (max-width: 1100px) {
-    
-   .services {
-    grid-template-columns: repeat(2, 1fr);
-    display: inline;
-    font-size: 1rem;
-  }
- }
