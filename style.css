@@ -400,8 +400,13 @@ footer{
     .fpara{
         font-size: 18px;
     }
+    
     .footer{
         margin-right:0;
     }
 }
 
+#events{
+    text-align: center;
+    margin: 50px;
+}
