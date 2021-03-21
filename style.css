@@ -30,7 +30,7 @@ body{
     padding: 40px 0;
 }
 .nav-logo img{
-    width:150px; 
+    width:100px; 
     margin:0;  
 }
 .nav-links{
@@ -44,6 +44,7 @@ body{
 .nav-links ul li{
     list-style:none;
     display:inline-block;
+    font-size: 17px;
     padding:8px 25px;
 }
 .nav-links ul a{
@@ -72,9 +73,9 @@ body{
 /*responsiveness*/
 /*mobile veiw*/
 @media screen and (max-width: 800px) {
-   .nav-links ul {
+   .nav-links ul li {
     padding:8px 5px;
-    /* font-size: 10px; */
+    font-size: 15px;
    }
    .nav-logo img{
     width:100px; 
