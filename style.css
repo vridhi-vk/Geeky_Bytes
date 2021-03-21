@@ -182,24 +182,25 @@ footer{
     padding-top: 40px;
     
 }
-.footer-content{
+.footerdiv{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
+.footerdiv h3{
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
+    color: yellow;
 }
-.footer-content{
+.footerdiv{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .socials{
     list-style: none;
@@ -219,10 +220,26 @@ footer{
 .socials a i{
     font-size: 1.1rem;
     transition: color .4s ease;
-}
-.socials a:hover i{
     color: yellow;
 }
-.footer-bottom{
-    
+.socials a:hover i{
+    color: white
+}
+.footer-copyright{
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-copyright p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-copyright span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.fpara{
+    font-size: 20px;
 }
