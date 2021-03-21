@@ -17,7 +17,7 @@ body{
     width:60px;
     height: 30px;
 }
-.header{
+.header,#speakers{
     margin-top:20px;
     /*background:black;*/
     text-align: center;
@@ -285,11 +285,16 @@ section .bann {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
-  color: yellow;
+  color: rgb(141, 141, 60);
 }
 
 .services .service .icon img {
-  max-width: 100px;
+    width: 100px;
+    height:150px;
+}
+.services .service{
+    letter-spacing: 3px;
+    line-height: 2em;
 }
 
 @media (max-width: 1100px) {
@@ -344,7 +349,7 @@ footer{
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
-  color: yellow;
+  color: rgb(150, 150, 52);
 }
 .footerdiv {
   max-width: 600px;
@@ -377,7 +382,7 @@ footer{
 .socials a i {
   font-size: 1.1rem;
   transition: color 0.4s ease;
-  color: yellow;
+  color: rgb(126, 126, 45);
 }
 .socials a:hover i {
   color: white;
@@ -417,3 +422,4 @@ footer{
     text-align: center;
     margin: 50px;
 }
+
