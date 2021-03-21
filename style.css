@@ -5,7 +5,7 @@
 }
 /* carousel */
 .mySlides {display: none}
-img {vertical-align: middle;}
+.carousel-img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
