@@ -29,6 +29,7 @@ body{
 }
 .nav-links{
     flex:1;
+    
 }
 .nav-links ul{
     margin-left:50px;
@@ -55,16 +56,20 @@ body{
 }
 .nav-links ul li:hover::after{
     width: 100%;
-} 
-/*end navbar*/
-.nav-bar .fa{
+}
+.nav-links ul a.icon{
     display: none;
 }
+
+/*end navbar*/
+
 /*responsiveness*/
 /*mobile veiw*/
-@media(max-width: 700px){
-    .nav-bar{
-        padding: 10px 30px;
+@media screen and (max-width: 600px) {
+    /*.topnav a:not(:first-child) {display: none;}*/
+    .nav-links ul a.icon {
+      float: right;
+      display: block;
     }
     .nav-bar .fa{
         display: block;
@@ -76,7 +81,6 @@ body{
     nav-links{
         height:100vh;
         width: 200px;
-        background: #000;
         top:0;
         right:0;
         position: absolute;
@@ -86,18 +90,19 @@ body{
 
     .nav-links ul a{
         display: block;
+  }
 
-    }
-}
 /* Banner */
  .banner{
   font-size: 30px;
   font-weight: 500;
+  color: #fff;
 }
 
  .banner-para{
   margin: 20px 0 10px;
   font-size: 1.1rem;
+  color: #fff;
 }
 
  #banner-section {
@@ -131,8 +136,8 @@ section .bann{
 .bannerBtn {
   cursor: pointer;
   display: inline-block;
-  background: rgb(170, 64, 64);
-  color: #fff;
+  background: rgb(189, 90, 90);
+  
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
@@ -184,3 +189,72 @@ background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
   }
 }
 
+/* Footer */
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    
+}
+.footerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footerdiv h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: yellow;
+}
+.footerdiv{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: centers;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    color: yellow;
+}
+.socials a:hover i{
+    color: white
+}
+.footer-copyright{
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-copyright p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-copyright span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.fpara{
+    font-size: 20px;
+}
