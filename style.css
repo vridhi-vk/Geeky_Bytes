@@ -6,8 +6,11 @@
     color:blanchedalmond;
 }
 body{
+    width:100vw;
+    overflow-x: hidden;
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #262a2c 74%);
+
 }
 #title
 {
@@ -276,4 +279,9 @@ text-align: center;
 }
 .fpara{
     font-size: 20px;
+}
+@media (max-width: 750px) {
+    .fpara{
+        font-size: 10px;
+    }
 }
