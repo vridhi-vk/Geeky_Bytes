@@ -65,7 +65,7 @@ body{
 
 /*responsiveness*/
 /*mobile veiw*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     /*.topnav a:not(:first-child) {display: none;}*/
     .nav-links ul a.icon {
       float: right;
@@ -91,7 +91,7 @@ body{
     .nav-links ul a{
         display: block;
   }
-
+}
 /* Banner */
  .banner{
   font-size: 30px;
@@ -169,7 +169,7 @@ section .bann{
     width: 100%;
 }
     
-@media (max-width: 1068px) {
+@media (max-width: 660px) {
   .banner-img {
     display: none;
   }
@@ -182,9 +182,10 @@ section .bann{
 footer{
     background: #111;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
-    
+    overflow: hidden;
+    position: absolute;
 }
 .footerdiv{
     display: flex;
@@ -201,7 +202,7 @@ footer{
     color: yellow;
 }
 .footerdiv{
-    max-width: 500px;
+    max-width: 660px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 16px;
@@ -230,7 +231,6 @@ footer{
     color: white
 }
 .footer-copyright{
-width: 100vw;
 padding: 20px 0;
 text-align: center;
 }
@@ -244,6 +244,14 @@ text-align: center;
     opacity: .4;
     font-weight: 200;
 }
-.fpara{
-    font-size: 20px;
+
+@media (max-width: 660px){
+  footer{
+      width: 100%;
+  }
+ 
+   .footer-copyright p{
+       font-size: 0.8rem;
+       
+   }
 }
