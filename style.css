@@ -358,9 +358,16 @@ footer{
   align-items: centers;
   justify-content: center;
   margin: 1rem 0 3rem 0;
+  color: white;
+
 }
 .socials li {
   margin: 0 10px;
+  padding: 5px;
+  size: 10px;
+}
+.socials li:hover{
+ background-color: rgb(202, 183, 183);
 }
 .socials a {
   text-decoration: none;
