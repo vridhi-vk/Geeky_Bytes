@@ -140,6 +140,7 @@ section .bann{
   position: relative;
   z-index: 10;
   max-width: 600px;
+  text-decoration: none;
 }
 
 .banner-img {
@@ -212,8 +213,7 @@ footer{
     background: #111;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
-    
+    padding-top: 40px;  
 }
 .footerdiv{
     display: flex;
@@ -230,8 +230,8 @@ footer{
     color: yellow;
 }
 .footerdiv{
-    max-width: 500px;
-    margin: 10px auto;
+    /* width: 100vw; */
+    /* margin: 10px auto; */
     line-height: 28px;
     font-size: 16px;
 }
