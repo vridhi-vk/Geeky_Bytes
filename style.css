@@ -182,7 +182,7 @@ section .bann{
 footer{
     background: #111;
     height: auto;
-    width: 100%;
+    width: 100vw;
     padding-top: 40px;
     overflow: hidden;
     position: absolute;
@@ -202,7 +202,7 @@ footer{
     color: yellow;
 }
 .footerdiv{
-    max-width: 660px;
+    max-width: 600px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 16px;
@@ -244,14 +244,15 @@ text-align: center;
     opacity: .4;
     font-weight: 200;
 }
-
+.fpara{
+    font-size: 20px;
+}
 @media (max-width: 660px){
-  footer{
-      width: 100%;
+   
+  .fpara{
+      font-size: 1.1rem;
   }
- 
    .footer-copyright p{
        font-size: 0.8rem;
-       
    }
 }
