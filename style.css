@@ -1,10 +1,14 @@
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8))
+}
 #title
 {
     width:60px;
     height: 30px;
 }
 .header{
-    background: black;
+    background:black;
 }
 .nav-bar
 {
