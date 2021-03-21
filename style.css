@@ -81,4 +81,64 @@ body{
         display: block;
 
     }
+/* Banner */
+ .banner{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+ .banner-para{
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+ #banner-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: left;
+  padding: 100px;
+  margin-top: 60px;
+}
+section .bann{
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 10;
+  max-width: 600px;
+}
+
+.banner-img {
+  position: absolute;
+  top: 220px;
+  bottom: 0;
+  right: 0;
+  height: 90%;
+}
+
+/*Banner Button */
+.bannerBtn {
+  cursor: pointer;
+  display: inline-block;
+  background: rgb(170, 64, 64);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border: 0;
+}
+
+.bannerBtn:hover {
+  transform: scale(0.98);
+}
+@media (max-width: 1068px) {
+  .banner-img {
+    display: none;
+  }
+   #banner-section {
+    padding: 100px 40px;
+  }
 }
