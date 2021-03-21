@@ -376,7 +376,7 @@ footer{
   size: 10px;
 }
 .socials li:hover{
- background-color: rgb(202, 183, 183);
+background-color: rgb(45, 45, 54);
 }
 .socials a {
   text-decoration: none;
@@ -388,6 +388,7 @@ footer{
   transition: color 0.4s ease;
   color: rgb(126, 126, 45);
 }
+
 .socials a:hover i {
   color: white;
 }
