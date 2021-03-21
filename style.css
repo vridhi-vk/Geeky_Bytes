@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Baloo Tammudu 2', cursive;
     color:blanchedalmond;
 }
 body{
@@ -187,8 +187,8 @@ section .bann{
 }
 .grid .col:nth-child(odd) {
     background-color: #ffeaa7;
-background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
-
+    background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
+    box-shadow: 3px 10px 6px -6px blanchedalmond;
 
   }
   
